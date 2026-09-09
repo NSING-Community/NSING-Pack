@@ -157,6 +157,34 @@ Highlights:
 
 See the version history files in each folder for the full changelog.
 
+## Keil DFP file index
+
+The version embedded in each `.pack` filename is the version of that device pack and is independent of the corresponding SDK repository version. Install downloaded files with Keil Pack Installer. SHA-256 checksums for every package are available in [`SHA256SUMS.txt`](SHA256SUMS.txt).
+
+| Device family | DFP file | Version |
+| --- | --- | --- |
+| N32WB03x | [`N32WB03x_DFP.1.4.0.pack`](N32WB03x_DFP.1.4.0.pack) | 1.4.0 |
+| N32A003 | [`Nations.N32A003_DFP.1.0.0.pack`](Nations.N32A003_DFP.1.0.0.pack) | 1.0.0 |
+| N32A052 | [`Nationstech.N32A052_DFP.1.0.0.pack`](Nationstech.N32A052_DFP.1.0.0.pack) | 1.0.0 |
+| N32A455 | [`Nations.N32A455_DFP.1.2.0.pack`](Nations.N32A455_DFP.1.2.0.pack) | 1.2.0 |
+| N32G003 | [`Nations.N32G003_DFP.1.0.1.pack`](Nations.N32G003_DFP.1.0.1.pack) | 1.0.1 |
+| N32G030 | [`Nationstech.N32G030_DFP.1.0.4.pack`](Nationstech.N32G030_DFP.1.0.4.pack) | 1.0.4 |
+| N32G031 | [`Nationstech.N32G031_DFP.1.0.6.pack`](Nationstech.N32G031_DFP.1.0.6.pack) | 1.0.6 |
+| N32G032 | [`Nationstech.N32G032_DFP.0.2.3.pack`](Nationstech.N32G032_DFP.0.2.3.pack) | 0.2.3 |
+| N32G033 | [`Nsing.N32G033_DFP.1.1.0.pack`](Nsing.N32G033_DFP.1.1.0.pack) | 1.1.0 |
+| N32G05x | [`Nationstech.N32G05x_DFP.1.1.0.pack`](Nationstech.N32G05x_DFP.1.1.0.pack) | 1.1.0 |
+| N32G401 | [`Nations.N32G401_DFP.1.2.0.pack`](Nations.N32G401_DFP.1.2.0.pack) | 1.2.0 |
+| N32G41x | [`Nsingtech.N32G41x_DFP.1.0.0.pack`](Nsingtech.N32G41x_DFP.1.0.0.pack) | 1.0.0 |
+| N32G430 | [`Nations.N32G430_DFP.1.3.0.pack`](Nations.N32G430_DFP.1.3.0.pack) | 1.3.0 |
+| N32G43x | [`Nationstech.N32G43x_DFP.1.2.0.pack`](Nationstech.N32G43x_DFP.1.2.0.pack) | 1.2.0 |
+| N32G45x | [`Nations.N32G45x_DFP.1.3.0.pack`](Nations.N32G45x_DFP.1.3.0.pack) | 1.3.0 |
+| N32G4FR | [`Nations.N32G4FR_DFP.1.2.0.pack`](Nations.N32G4FR_DFP.1.2.0.pack) | 1.2.0 |
+| N32H49x | [`Nsingtech.N32H49x_DFP.1.1.0.pack`](Nsingtech.N32H49x_DFP.1.1.0.pack) | 1.1.0 |
+| N32H7xx | [`Nationstech.N32H7xx_DFP.1.2.0.pack`](Nationstech.N32H7xx_DFP.1.2.0.pack) | 1.2.0 |
+| N32L40x | [`Nationstech.N32L40x_DFP.1.4.0.pack`](Nationstech.N32L40x_DFP.1.4.0.pack) | 1.4.0 |
+| N32L43x | [`Nationstech.N32L43x_DFP.1.2.0.pack`](Nationstech.N32L43x_DFP.1.2.0.pack) | 1.2.0 |
+| N32WB452 | [`Nations.N32WB452_DFP.1.2.0.pack`](Nations.N32WB452_DFP.1.2.0.pack) | 1.2.0 |
+
 ## License
 
 The packages in this repository are officially released by the vendor (Nations / Nsing); all copyrights belong to the original vendor. Their usage/distribution rules follow the official release notes and the notices inside each file. This repository only archives the packages for easy access and does not modify their content.

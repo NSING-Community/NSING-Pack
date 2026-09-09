@@ -134,6 +134,34 @@ N32G45x 系列（`Nations.N32G45x_DFP.x.x.x.pack`）：
 > - J-Link 支持包（V1.7.0）覆盖 N32H76x / N32H78x 4M Flash 型号；
 > - 具体支持型号请以对应目录下的 `Version history.txt` / `readme.txt` 与 XML/PDSC 内容为准。
 
+## Keil DFP 文件索引
+
+`.pack` 文件名中的版本号是对应器件包自身的版本，与 SDK 仓库版本相互独立。下载后可直接通过 Keil Pack Installer 安装。所有文件的 SHA-256 校验值见 [`SHA256SUMS.txt`](SHA256SUMS.txt)。
+
+| 芯片系列 | DFP 文件 | 版本 |
+| --- | --- | --- |
+| N32WB03x | [`N32WB03x_DFP.1.4.0.pack`](N32WB03x_DFP.1.4.0.pack) | 1.4.0 |
+| N32A003 | [`Nations.N32A003_DFP.1.0.0.pack`](Nations.N32A003_DFP.1.0.0.pack) | 1.0.0 |
+| N32A052 | [`Nationstech.N32A052_DFP.1.0.0.pack`](Nationstech.N32A052_DFP.1.0.0.pack) | 1.0.0 |
+| N32A455 | [`Nations.N32A455_DFP.1.2.0.pack`](Nations.N32A455_DFP.1.2.0.pack) | 1.2.0 |
+| N32G003 | [`Nations.N32G003_DFP.1.0.1.pack`](Nations.N32G003_DFP.1.0.1.pack) | 1.0.1 |
+| N32G030 | [`Nationstech.N32G030_DFP.1.0.4.pack`](Nationstech.N32G030_DFP.1.0.4.pack) | 1.0.4 |
+| N32G031 | [`Nationstech.N32G031_DFP.1.0.6.pack`](Nationstech.N32G031_DFP.1.0.6.pack) | 1.0.6 |
+| N32G032 | [`Nationstech.N32G032_DFP.0.2.3.pack`](Nationstech.N32G032_DFP.0.2.3.pack) | 0.2.3 |
+| N32G033 | [`Nsing.N32G033_DFP.1.1.0.pack`](Nsing.N32G033_DFP.1.1.0.pack) | 1.1.0 |
+| N32G05x | [`Nationstech.N32G05x_DFP.1.1.0.pack`](Nationstech.N32G05x_DFP.1.1.0.pack) | 1.1.0 |
+| N32G401 | [`Nations.N32G401_DFP.1.2.0.pack`](Nations.N32G401_DFP.1.2.0.pack) | 1.2.0 |
+| N32G41x | [`Nsingtech.N32G41x_DFP.1.0.0.pack`](Nsingtech.N32G41x_DFP.1.0.0.pack) | 1.0.0 |
+| N32G430 | [`Nations.N32G430_DFP.1.3.0.pack`](Nations.N32G430_DFP.1.3.0.pack) | 1.3.0 |
+| N32G43x | [`Nationstech.N32G43x_DFP.1.2.0.pack`](Nationstech.N32G43x_DFP.1.2.0.pack) | 1.2.0 |
+| N32G45x | [`Nations.N32G45x_DFP.1.3.0.pack`](Nations.N32G45x_DFP.1.3.0.pack) | 1.3.0 |
+| N32G4FR | [`Nations.N32G4FR_DFP.1.2.0.pack`](Nations.N32G4FR_DFP.1.2.0.pack) | 1.2.0 |
+| N32H49x | [`Nsingtech.N32H49x_DFP.1.1.0.pack`](Nsingtech.N32H49x_DFP.1.1.0.pack) | 1.1.0 |
+| N32H7xx | [`Nationstech.N32H7xx_DFP.1.2.0.pack`](Nationstech.N32H7xx_DFP.1.2.0.pack) | 1.2.0 |
+| N32L40x | [`Nationstech.N32L40x_DFP.1.4.0.pack`](Nationstech.N32L40x_DFP.1.4.0.pack) | 1.4.0 |
+| N32L43x | [`Nationstech.N32L43x_DFP.1.2.0.pack`](Nationstech.N32L43x_DFP.1.2.0.pack) | 1.2.0 |
+| N32WB452 | [`Nations.N32WB452_DFP.1.2.0.pack`](Nations.N32WB452_DFP.1.2.0.pack) | 1.2.0 |
+
 ## 许可证
 
 本仓库内各资源包为厂商（Nations / Nsing）官方发布，版权归原厂商所有；其使用/分发规则以官方发布说明及各文件内标注为准。本仓库不对资源内容做二次修改，仅为便于获取而作归档整理。
