@@ -66,7 +66,7 @@ The N32G45x-series device support pack for **MDK-ARM / Keil 5** (PDSC schema ver
 
 > Folder: `JLink_tool_adds_Nations_chip/`
 
-Adds Nationstech / NSINGtech chip support to **SEGGER J-Link**; pick the sub-folder matching your J-Link version:
+Adds Nations / NSING chip support to **SEGGER J-Link**; pick the sub-folder matching your J-Link version:
 
 | Folder | J-Link version | Contents |
 | ------ | -------------- | -------- |
@@ -125,7 +125,7 @@ Use the **Nations Device PACK Add To IAR Tool**:
 
 ## Supported Device Series
 
-This repository covers the mainstream **Nationstech (Nations)** and **NSINGtech (NSING)** N32 devices (indicative only — check the actual files in each folder):
+This repository covers the mainstream **Nations / NSING** N32 devices (indicative only — check the actual files in each folder):
 
 > Automotive/General MCUs: N32A003 / N32A032 / N32A052 / N32A430 / N32A455
 > General-purpose MCUs: N32G003 / N32G030 / N32G031 / N32G032 / N32G033 / N32G05x / N32G401 / N32G41x / N32G430 / N32G43x / N32G45x / N32G4FR
