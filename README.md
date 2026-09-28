@@ -1,6 +1,6 @@
 # NSING-Pack
 
-> N32 系列 MCU 的 MDK、IAR、J-Link 环境支持资源包（Device Pack / 下载算法 / J-Flash 工程），适用于 Nationstech 与 NSINGtech 全系 N32 芯片。各目录文件均为官方发布包，下载后可直接使用。
+> N32 系列 MCU 的 MDK、IAR、J-Link 环境支持资源包（Device Pack / 下载算法 / J-Flash 工程），适用于 Nations / NSING 全系 N32 芯片。各目录文件均为官方发布包，下载后可直接使用。
 
 简体中文 | [English](README_EN.md)
 
@@ -120,7 +120,7 @@ N32G45x 系列（`Nations.N32G45x_DFP.x.x.x.pack`）：
 
 ## 支持芯片系列
 
-本仓库资源覆盖了 **Nationstech（Nations）** 与 **NSINGtech（NSING）** 的 N32 系列主流型号，包括（示意，具体以各目录内文件为准）：
+本仓库资源覆盖了 **Nations / NSING** 的 N32 系列主流型号，包括（示意，具体以各目录内文件为准）：
 
 > 汽车/通用 MCU：N32A003 / N32A032 / N32A052 / N32A430 / N32A455
 > 通用低功耗 MCU：N32G030 / N32G031 / N32G032 / N32G033 / N32G05x / N32G401 / N32G41x / N32G430 / N32G43x / N32G45x / N32G4FR / N32G003
