@@ -1,6 +1,6 @@
 # NSING-Pack
 
-> Environment support packages (device packs / flash algorithms / J-Flash projects) for **N32 series MCUs** in **MDK, IAR, and J-Link**, covering the full Nationstech & NSINGtech N32 family. All files are official releases and can be used directly after downloading.
+> Environment support packages (device packs / flash algorithms / J-Flash projects) for **N32 series MCUs** in **MDK, IAR, and J-Link**, covering the full Nations / NSING N32 family. All files are official releases and can be used directly after downloading.
 
 [简体中文](README_CN.md) | English
 
