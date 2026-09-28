@@ -1,6 +1,6 @@
 # NSING-Pack
 
-> Environment support packages (device packs / flash algorithms / J-Flash projects) for **N32 series MCUs** in **MDK, IAR, and J-Link**, covering the full Nationstech & Nsingtech N32 family. All files are official releases and can be used directly after downloading.
+> Environment support packages (device packs / flash algorithms / J-Flash projects) for **N32 series MCUs** in **MDK, IAR, and J-Link**, covering the full Nationstech & NSINGtech N32 family. All files are official releases and can be used directly after downloading.
 
 [简体中文](README_CN.md) | English
 
@@ -21,7 +21,7 @@
 
 ## Overview
 
-**NSING-Pack** collects the officially released support packages and companion tools for **N32 series microcontrollers** (by Nations / Nsing) across mainstream embedded development environments. It helps developers quickly get chip identification, downloading, and debugging working in **Keil MDK**, **IAR EWARM**, and **SEGGER J-Link**. The repository includes:
+**NSING-Pack** collects the officially released support packages and companion tools for **N32 series microcontrollers** (by Nations / NSING) across mainstream embedded development environments. It helps developers quickly get chip identification, downloading, and debugging working in **Keil MDK**, **IAR EWARM**, and **SEGGER J-Link**. The repository includes:
 
 - **MDK Device Family Pack** (`.pack`)
 - **J-Link chip support** — Flash download algorithms (`.FLM`), `JLinkDevices.xml`, J-Flash projects (`.jflash`) — plus a configuration/unlock tool
@@ -66,7 +66,7 @@ The N32G45x-series device support pack for **MDK-ARM / Keil 5** (PDSC schema ver
 
 > Folder: `JLink_tool_adds_Nations_chip/`
 
-Adds Nationstech / Nsingtech chip support to **SEGGER J-Link**; pick the sub-folder matching your J-Link version:
+Adds Nationstech / NSINGtech chip support to **SEGGER J-Link**; pick the sub-folder matching your J-Link version:
 
 | Folder | J-Link version | Contents |
 | ------ | -------------- | -------- |
@@ -118,14 +118,14 @@ Use the **Nations Device PACK Add To IAR Tool**:
 > Pick the `JLink_tool_adds_Nations_chip/JLinkV6.4 to V7.6/` or `JLinkV7.7 and above/` sub-folder according to your J-Link version, then configure as follows:
 
 1. Locate the J-Link installation directory (e.g. `C:\Program Files (x86)\SEGGER\JLink\`) and open the `JLinkDevices.xml` file there;
-2. Open the provided `Nations-JLinkDevices.xml` or `Nsing-JLinkDevices.xml`, copy the chip configuration entries for all Nations/Nsing chips, append them to the end of the `JLinkDevices.xml` in the installation directory, and save;
-3. Add the Nations/Nsing download/programming files: copy the provided `Devices/Nationstech` and `Devices/Nsingtech` folders into the `Devices` folder in the installation directory;
+2. Open the provided `Nations-JLinkDevices.xml` or `Nsing-JLinkDevices.xml`, copy the chip configuration entries for all Nations/NSING chips, append them to the end of the `JLinkDevices.xml` in the installation directory, and save;
+3. Add the Nations/NSING download/programming files: copy the provided `Devices/Nationstech` and `Devices/Nsingtech` folders into the `Devices` folder in the installation directory;
 4. Once configured, open the `.jflash` project matching your chip from `Samples/JFlash/ProjectFiles/` directly in **J-Flash** and flash;
 5. If the chip cannot be connected due to read protection, use `JLinkNsUnlockTool` to unlock it.
 
 ## Supported Device Series
 
-This repository covers the mainstream **Nationstech (Nations)** and **Nsingtech (Nsing)** N32 devices (indicative only — check the actual files in each folder):
+This repository covers the mainstream **Nationstech (Nations)** and **NSINGtech (NSING)** N32 devices (indicative only — check the actual files in each folder):
 
 > Automotive/General MCUs: N32A003 / N32A032 / N32A052 / N32A430 / N32A455
 > General-purpose MCUs: N32G003 / N32G030 / N32G031 / N32G032 / N32G033 / N32G05x / N32G401 / N32G41x / N32G430 / N32G43x / N32G45x / N32G4FR
@@ -187,4 +187,4 @@ The version embedded in each `.pack` filename is the version of that device pack
 
 ## License
 
-The packages in this repository are officially released by the vendor (Nations / Nsing); all copyrights belong to the original vendor. Their usage/distribution rules follow the official release notes and the notices inside each file. This repository only archives the packages for easy access and does not modify their content.
+The packages in this repository are officially released by the vendor (Nations / NSING); all copyrights belong to the original vendor. Their usage/distribution rules follow the official release notes and the notices inside each file. This repository only archives the packages for easy access and does not modify their content.

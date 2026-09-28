@@ -1,6 +1,6 @@
 # NSING-Pack
 
-> N32 系列 MCU 的 MDK、IAR、J-Link 环境支持资源包（Device Pack / 下载算法 / J-Flash 工程），适用于 Nationstech 与 Nsingtech 全系 N32 芯片。各目录文件均为官方发布包，下载后可直接使用。
+> N32 系列 MCU 的 MDK、IAR、J-Link 环境支持资源包（Device Pack / 下载算法 / J-Flash 工程），适用于 Nationstech 与 NSINGtech 全系 N32 芯片。各目录文件均为官方发布包，下载后可直接使用。
 
 简体中文 | [English](README_EN.md)
 
@@ -21,7 +21,7 @@
 
 ## 概述
 
-**NSING-Pack** 汇集了国民技术（Nations / Nsing）官方发布的 **N32 系列微控制器**在主流嵌入式开发环境中的支持包与配套工具，帮助开发者在 **Keil MDK**、**IAR EWARM** 与 **SEGGER J-Link** 中快速完成芯片识别、下载与调试。仓库内资源类型包括：
+**NSING-Pack** 汇集了国民技术（Nations / NSING）官方发布的 **N32 系列微控制器**在主流嵌入式开发环境中的支持包与配套工具，帮助开发者在 **Keil MDK**、**IAR EWARM** 与 **SEGGER J-Link** 中快速完成芯片识别、下载与调试。仓库内资源类型包括：
 
 - **MDK 设备支持包**（Device Family Pack，`.pack`）
 - **J-Link 芯片支持**（Flash 下载算法 `.FLM`、`JLinkDevices.xml`、JFlash 工程 `.jflash`）及配套配置/解锁工具
@@ -66,7 +66,7 @@ NSING-Pack/
 
 > 目录：`JLink_tool_adds_Nations_chip/`
 
-为 **SEGGER J-Link** 添加 Nationstech / Nsingtech 芯片支持，按下述 J-Link 版本使用对应子目录：
+为 **SEGGER J-Link** 添加 Nationstech / NSINGtech 芯片支持，按下述 J-Link 版本使用对应子目录：
 
 | 目录 | 适用 J-Link 版本 | 内容 |
 | ---- | ---------------- | ---- |
@@ -113,14 +113,14 @@ N32G45x 系列（`Nations.N32G45x_DFP.x.x.x.pack`）：
 > 根据 J-Link 版本选择 `JLink_tool_adds_Nations_chip/JLinkV6.4 to V7.6/` 或 `JLinkV7.7 and above/` 子目录，再按下述步骤配置：
 
 1. 找到 J-Link 安装路径（如 `C:\Program Files (x86)\SEGGER\JLink\`），打开其中的 `JLinkDevices.xml` 文档；
-2. 打开本仓库提供的 `Nations-JLinkDevices.xml` 或 `Nsing-JLinkDevices.xml`，将其中 Nations/Nsing 所有芯片的配置内容复制到安装路径下 `JLinkDevices.xml` 文档末尾，点击保存；
-3. 添加 Nations/Nsing 的下载编译文件：将本仓库中的 `Devices/Nationstech` 与 `Devices/Nsingtech` 文件夹复制到安装路径下的 `Devices` 文件夹中；
+2. 打开本仓库提供的 `Nations-JLinkDevices.xml` 或 `Nsing-JLinkDevices.xml`，将其中 Nations/NSING 所有芯片的配置内容复制到安装路径下 `JLinkDevices.xml` 文档末尾，点击保存；
+3. 添加 Nations/NSING 的下载编译文件：将本仓库中的 `Devices/Nationstech` 与 `Devices/Nsingtech` 文件夹复制到安装路径下的 `Devices` 文件夹中；
 4. 完成以上配置后，可在 **J-Flash** 中直接打开 `Samples/JFlash/ProjectFiles/` 下对应型号的 `.jflash` 工程烧录；
 5. 如遇芯片读保护导致无法连接，使用 `JLinkNsUnlockTool` 进行解锁。
 
 ## 支持芯片系列
 
-本仓库资源覆盖了 **Nationstech（Nations）** 与 **Nsingtech（Nsing）** 的 N32 系列主流型号，包括（示意，具体以各目录内文件为准）：
+本仓库资源覆盖了 **Nationstech（Nations）** 与 **NSINGtech（NSING）** 的 N32 系列主流型号，包括（示意，具体以各目录内文件为准）：
 
 > 汽车/通用 MCU：N32A003 / N32A032 / N32A052 / N32A430 / N32A455
 > 通用低功耗 MCU：N32G030 / N32G031 / N32G032 / N32G033 / N32G05x / N32G401 / N32G41x / N32G430 / N32G43x / N32G45x / N32G4FR / N32G003
@@ -164,4 +164,4 @@ N32G45x 系列（`Nations.N32G45x_DFP.x.x.x.pack`）：
 
 ## 许可证
 
-本仓库内各资源包为厂商（Nations / Nsing）官方发布，版权归原厂商所有；其使用/分发规则以官方发布说明及各文件内标注为准。本仓库不对资源内容做二次修改，仅为便于获取而作归档整理。
+本仓库内各资源包为厂商（Nations / NSING）官方发布，版权归原厂商所有；其使用/分发规则以官方发布说明及各文件内标注为准。本仓库不对资源内容做二次修改，仅为便于获取而作归档整理。
