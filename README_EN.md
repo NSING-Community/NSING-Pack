@@ -1,4 +1,4 @@
-# Nsing-Pack
+# NSING-Pack
 
 > Environment support packages (device packs / flash algorithms / J-Flash projects) for **N32 series MCUs** in **MDK, IAR, and J-Link**, covering the full Nationstech & Nsingtech N32 family. All files are official releases and can be used directly after downloading.
 
@@ -21,7 +21,7 @@
 
 ## Overview
 
-**Nsing-Pack** collects the officially released support packages and companion tools for **N32 series microcontrollers** (by Nations / Nsing) across mainstream embedded development environments. It helps developers quickly get chip identification, downloading, and debugging working in **Keil MDK**, **IAR EWARM**, and **SEGGER J-Link**. The repository includes:
+**NSING-Pack** collects the officially released support packages and companion tools for **N32 series microcontrollers** (by Nations / Nsing) across mainstream embedded development environments. It helps developers quickly get chip identification, downloading, and debugging working in **Keil MDK**, **IAR EWARM**, and **SEGGER J-Link**. The repository includes:
 
 - **MDK Device Family Pack** (`.pack`)
 - **J-Link chip support** — Flash download algorithms (`.FLM`), `JLinkDevices.xml`, J-Flash projects (`.jflash`) — plus a configuration/unlock tool
@@ -32,7 +32,7 @@ Every folder keeps the official version history and usage notes, see the corresp
 ## Repository Layout
 
 ```
-Nsing-Pack/
+NSING-Pack/
 ├── Nations.N32G45x_DFP.1.3.0.pack        # Keil MDK Device Family Pack (N32G45x series)
 ├── JLink_tool_adds_Nations_chip/         # J-Link support for Nations chips (incl. unlock tool)
 │   ├── JLinkV6.4 to V7.6/                #   For J-Link V6.40 ~ V7.60

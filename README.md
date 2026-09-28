@@ -1,4 +1,4 @@
-# Nsing-Pack
+# NSING-Pack
 
 > N32 系列 MCU 的 MDK、IAR、J-Link 环境支持资源包（Device Pack / 下载算法 / J-Flash 工程），适用于 Nationstech 与 Nsingtech 全系 N32 芯片。各目录文件均为官方发布包，下载后可直接使用。
 
@@ -21,7 +21,7 @@
 
 ## 概述
 
-**Nsing-Pack** 汇集了国民技术（Nations / Nsing）官方发布的 **N32 系列微控制器**在主流嵌入式开发环境中的支持包与配套工具，帮助开发者在 **Keil MDK**、**IAR EWARM** 与 **SEGGER J-Link** 中快速完成芯片识别、下载与调试。仓库内资源类型包括：
+**NSING-Pack** 汇集了国民技术（Nations / Nsing）官方发布的 **N32 系列微控制器**在主流嵌入式开发环境中的支持包与配套工具，帮助开发者在 **Keil MDK**、**IAR EWARM** 与 **SEGGER J-Link** 中快速完成芯片识别、下载与调试。仓库内资源类型包括：
 
 - **MDK 设备支持包**（Device Family Pack，`.pack`）
 - **J-Link 芯片支持**（Flash 下载算法 `.FLM`、`JLinkDevices.xml`、JFlash 工程 `.jflash`）及配套配置/解锁工具
@@ -32,7 +32,7 @@
 ## 仓库内容概览
 
 ```
-Nsing-Pack/
+NSING-Pack/
 ├── Nations.N32G45x_DFP.1.3.0.pack        # Keil MDK 设备支持包（N32G45x 系列）
 ├── JLink_tool_adds_Nations_chip/         # J-Link 添加 Nations 芯片支持（含配置/解锁工具）
 │   ├── JLinkV6.4 to V7.6/                #   适用于 J-Link V6.40 ~ V7.60
