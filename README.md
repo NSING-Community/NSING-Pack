@@ -66,7 +66,7 @@ NSING-Pack/
 
 > 目录：`JLink_tool_adds_Nations_chip/`
 
-为 **SEGGER J-Link** 添加 Nationstech / NSINGtech 芯片支持，按下述 J-Link 版本使用对应子目录：
+为 **SEGGER J-Link** 添加 Nations / NSING 芯片支持，按下述 J-Link 版本使用对应子目录：
 
 | 目录 | 适用 J-Link 版本 | 内容 |
 | ---- | ---------------- | ---- |
